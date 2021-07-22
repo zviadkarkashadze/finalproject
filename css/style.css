@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+
+
+.logo {
+  
+}
+
+.navul {
+  display: flex;
+  justify-content: space-between;
+}
+
