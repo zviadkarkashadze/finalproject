@@ -9,12 +9,10 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  overflow: hidden;
 }
 
 .logo {
-  font-size: 32px;
+  font-size: 50px;
   color: black;
   font-family: 'Dancing Script', cursive;
   margin-left: 80px;
@@ -29,7 +27,7 @@ html {
 
 .navli {
   font-family: 'Dancing Script', cursive;
-  font-size: 20px;
+  font-size: 30px;
   margin-right: 30px;
 }
 .nav-a {
@@ -43,3 +41,124 @@ html {
 .nav a.active {
   border-bottom: 2px solid black;
 }
+
+.firstsection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.divbox1 {
+  max-width: 600px;
+  width: 100%;
+  height: 600px;
+}
+
+.divbox2 {
+  max-width: 600px;
+  width: 100%;
+  height: 600px;
+  align-items: center;
+}
+
+.divbox3 {
+  max-width: 600px;
+  width: 100%;
+  height: 600px;
+}
+
+.h1 {
+  margin-top: 136px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.p1 {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.cheeseboard {
+  width: 100%;
+  box-shadow: 0px 0px 20px black;
+}
+
+.wines {
+  max-width: 600px;
+  height: 750px;
+  width: 100%;
+  box-shadow: 0px 0px 20px black;
+}
+
+.middlebackground {
+  background-image: url(../images/bottles.jpg);
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+  height: 700px;
+  width: 100%;
+}
+
+
+.divbox4 {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  z-index: 5;
+}
+
+.divbox5 {
+  background-color: #fff;
+  width: 100%;
+  height: 965px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divbox6 {
+  background-color: #060a0e;
+  width: 100%;
+  height: 965px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divtext {
+  text-align: center;
+  height: 295px;
+  width: 381px;
+  letter-spacing: -0.5px;
+}
+
+
+.h2 {
+  font-size: 37px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 50px;
+  border-top: #fff solid 2px;
+  padding-top: 20px;
+}
+
+.p2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  border-bottom: solid #fff 2px;
+  padding-bottom: 20px;
+}
+.wineglass {
+  max-width: 500px;
+  width: 100%; 
+}
+
