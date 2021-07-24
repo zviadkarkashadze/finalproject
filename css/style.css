@@ -98,7 +98,6 @@ html {
 
 .middlebackground {
   background-image: url(../images/bottles.jpg);
-  position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,7 +111,6 @@ html {
 .divbox4 {
   width: 100%;
   display: flex;
-  position: absolute;
   z-index: 5;
 }
 
@@ -160,5 +158,61 @@ html {
 .wineglass {
   max-width: 500px;
   width: 100%; 
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: #060a0e;
+  color: #fff;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer1 {
+  width: 300px;
+}
+
+.footericon {
+  width: 16px;
+  height: 17px;
+  margin-right: 10px;  
+  margin-top: 10px;
+}
+
+.footerul {
+  display: flex;
+}
+
+.plocation {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.footer2 {
+  width: 300px;
+}
+
+.pfindus {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.pfindus1 {
+  letter-spacing: 1.5px;
+}
+
+.footer3 {
+  width: 300px;
+}
+
+.popenhours {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footerp {
+  letter-spacing: 1.5px;
 }
 
