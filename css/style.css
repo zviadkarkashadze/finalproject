@@ -383,3 +383,20 @@ input[type=submit]:hover {
   position:absolute;
   bottom:0;
 }
+
+
+.winebox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wineshopbox {
+  width: 500px;
+  background-color: #FBBA77;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
