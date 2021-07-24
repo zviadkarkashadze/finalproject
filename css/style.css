@@ -172,6 +172,11 @@ html {
   align-items: center;
   justify-content: space-around;
 }
+
+.footerfixer {
+  min-height: 580px;
+}
+
 .footer1 {
   width: 300px;
 }
@@ -404,12 +409,20 @@ input[type=submit]:hover {
 .menu {
   position: relative;
   text-align: center;
-  color: white;
-   
+  color: white; 
+  width: 100%;
+  height: 1450px;
 }
 
+.menu div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 .divtext {
+  max-width: 200px;
   width: 100%;
   position: absolute;
   top: 50%;
@@ -417,3 +430,12 @@ input[type=submit]:hover {
   transform: translate(-50%, -50%);
   
 }
+
+
+.menuimage {
+  max-width: 1920px;
+  width: 100%;
+  height: 1418px;
+}
+
+
