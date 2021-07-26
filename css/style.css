@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 html {
   width: 100%;
 }
@@ -6,9 +13,15 @@ html {
   top: 0;
   width: 100%;
   height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #fff;
 }
 
@@ -20,9 +33,15 @@ html {
 }
 
 .navul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 80px;
 }
 
@@ -44,8 +63,12 @@ html {
 }
 
 .firstsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   width: 100%;
   margin-top: 50px;
@@ -61,7 +84,9 @@ html {
   max-width: 600px;
   width: 100%;
   height: 600px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .divbox3 {
@@ -88,14 +113,16 @@ html {
 
 .cheeseboard {
   width: 100%;
-  box-shadow: 0px 0px 20px black;
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
 }
 
 .wines {
   max-width: 600px;
   height: 750px;
   width: 100%;
-  box-shadow: 0px 0px 20px black;
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
 }
 
 .middlebackground {
@@ -114,6 +141,8 @@ html {
 
 .divbox4 {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   z-index: 5;
 }
@@ -122,18 +151,30 @@ html {
   background-color: #fff;
   width: 100%;
   height: 965px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .divbox6 {
   background-color: #060a0e;
   width: 100%;
   height: 965px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
 .divtext1 {
@@ -166,32 +207,47 @@ html {
 }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 300px;
   background-color: #060a0e;
   color: #fff;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .footer10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 300px;
   background-color: #060a0e;
   color: #fff;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .footermenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 300px;
   color: #060a0e;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .footer1 {
@@ -206,6 +262,8 @@ html {
 }
 
 .footerul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -264,7 +322,8 @@ html {
 
 .map{
   height: 400px;
-  filter: grayscale(100%) invert(92%) contrast(83%);
+  -webkit-filter: grayscale(100%) invert(92%) contrast(83%);
+          filter: grayscale(100%) invert(92%) contrast(83%);
 }
 
 
@@ -275,15 +334,20 @@ html {
   background: #f1f1f1;
   margin: 10px;
   border-radius: 30%;
-  box-shadow:-5px 5px 15px -5px #f1f1f1; 
+  -webkit-box-shadow:-5px 5px 15px -5px #f1f1f1;
+          box-shadow:-5px 5px 15px -5px #f1f1f1; 
   overflow: hidden;
   position: relative;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
   transition: 0.3s linear;
 }
 
 .btn i {
   line-height: 60px;
   font-size: 26px;
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
   transition: 0.3s linear;
 }
 
@@ -304,11 +368,15 @@ html {
 }
 
 .btn:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .btn:hover i {
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
   color: #fff;
 }
 
@@ -317,7 +385,9 @@ html {
   position:absolute;
   width:120%;
   height:120%;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   left: -110%;
   top:90%;
 }
@@ -339,9 +409,25 @@ html {
 }
 
 .btn:hover::before {
-  animation: aaa 0.7s 1;
+  -webkit-animation: aaa 0.7s 1;
+          animation: aaa 0.7s 1;
   top: -10%;
   left: -10%;
+}
+
+@-webkit-keyframes aaa {
+  0% {
+    left: -110%;
+    top:90%;
+  }
+  50% {
+    left:10%;
+    top: -30%;
+  }
+  100% {
+    left: -10%;
+    top: -10%;
+  }
 }
 
 @keyframes aaa {
@@ -360,9 +446,15 @@ html {
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #fff;
   width: 100%;
   height: 600px;
@@ -374,7 +466,8 @@ input[type=text], select, textarea {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: none;
@@ -414,13 +507,18 @@ input[type=submit]:hover {
 }
 
 .footercontact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 300px;
   background-color: #060a0e;
   color: #fff;
-  align-items: center;
-  justify-content: space-around;  
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;  
   bottom:0;
 }
 .menu {
@@ -432,10 +530,17 @@ input[type=submit]:hover {
 }
 
 .menu div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .divtext {
@@ -444,7 +549,9 @@ input[type=submit]:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   
 }
 
