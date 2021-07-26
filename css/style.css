@@ -46,6 +46,7 @@ html {
 .firstsection {
   display: flex;
   justify-content: center;
+  position: relative;
   width: 100%;
   margin-top: 50px;
 }
@@ -133,8 +134,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
-.divtext {
+.divtext1 {
   text-align: center;
   height: 295px;
   width: 381px;
@@ -173,8 +175,13 @@ html {
   justify-content: space-around;
 }
 
-.footerfixer {
-  min-height: 580px;
+.footermenu {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  color: #060a0e;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .footer1 {
@@ -384,8 +391,7 @@ input[type=submit]:hover {
   background-color: #060a0e;
   color: #fff;
   align-items: center;
-  justify-content: space-around;
-  position:absolute;
+  justify-content: space-around;  
   bottom:0;
 }
 
@@ -394,10 +400,12 @@ input[type=submit]:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .wineshopbox {
-  width: 500px;
+  width: 300px;
   background-color: #FBBA77;
   display: flex;
   justify-content: center;
@@ -431,11 +439,23 @@ input[type=submit]:hover {
   
 }
 
-
 .menuimage {
   max-width: 1920px;
   width: 100%;
   height: 1418px;
+}
+
+.sectionimage1 {
+  background-image: url(..//images/wineshopbackground.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+  height: 700px;
+  width: 100%;
+  min-height:100%;
+  position:relative;
 }
 
 
