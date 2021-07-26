@@ -24,7 +24,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/imagehovers.css">
-  <script src="JS/script.js"></script>
 </head>
 <body>
   <header>
@@ -32,7 +31,7 @@
       <a class="logo" href="index.html">
         On Wine
       </a>
-       <nav class="nav">
+       <nav class="nav" id="links">
          <ul class="navul">
            <li class="navli">
              <a class="nav-a" href="index.html">Home</a>
@@ -48,7 +47,7 @@
           </li>
          </ul>
        </nav>
-       <div class="burger-bar">
+       <div class="burger-bar" id="burgerbar" onclick="myFunction()">
         <i class="fas fa-bars"></i>
       </div>
     </div>
@@ -137,5 +136,6 @@
         </ul>
       </div>
     </footer>
+    <script src="script.jss"></script>
 </body>
 </html>

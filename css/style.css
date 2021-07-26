@@ -423,8 +423,6 @@ input[type=submit]:hover {
   justify-content: space-around;  
   bottom:0;
 }
-
-
 .menu {
   position: relative;
   text-align: center;
@@ -665,10 +663,9 @@ input[type=submit]:hover {
 .bold {
   font-weight: bold;
 }
-
-
-.burger-bar{
+.burger-bar {
   color: black;
   font-size: 25px;
   display: none;
+  cursor: pointer;
 }
