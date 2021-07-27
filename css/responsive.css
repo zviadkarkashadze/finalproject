@@ -130,16 +130,21 @@
 }
 
 
-@media (max-width: 376px) {
+@media (max-width: 440px) {
   .divbox2 {
     margin-top: -180px;
     margin-bottom: 215px;
   }
-  .footer10 {
+  .footer2 {
     display: none;
   }
   .footercontact {
     margin-top: 0;
+  }
+  .footercontact12 {
+    margin-top: 100%;
+    background-color: black;
+    color:white;
   }
   .footer1 {
     margin-left: 5px;
@@ -147,9 +152,9 @@
   .footer3 {
     margin-left: 0;
   }
-  .footercontact {
-    display: none;
-  }
+ .middle{
+   display: none;
+ }
   .contact {
     display: block;
   }
@@ -160,5 +165,8 @@
   }
   .divmap {
     margin-top: 40px;
+  }
+  .footer20 {
+    display: none;
   }
 }
