@@ -61,6 +61,11 @@
     }
     .nav.active {
       display: block;
+      position: absolute;
+      top: 80px;
+      z-index: 10;
+      right: 0;
+      left: 20%;
     }
     .navul {
       -webkit-box-orient: vertical;
@@ -71,7 +76,20 @@
     .navul li {
       text-align: center;
     }
-    
+
+    .section10 {
+      margin-top: 25%;
+    }
+
+    .section20 {
+      margin-top: 25%;
+    }
+
+    .box-wraper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 }
 
 
